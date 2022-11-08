@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "50685590359",
+    "project_id": "e-commerce-app-25c0d",
+    "storage_bucket": "e-commerce-app-25c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50685590359:android:1562a157e483d512b8dc12",
+        "android_client_info": {
+          "package_name": "ru.ivos.e_commerce_household_goods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50685590359-fbkkaa3e7ol2mkg6f4qilfemaja1oqk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.ivos.e_commerce_household_goods",
+            "certificate_hash": "661d46baee34fc464aceb79f12113d4ef0b651d2"
+          }
+        },
+        {
+          "client_id": "50685590359-armg44m3mte20lf2rk51jhqkivdfj303.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtGWHQbjsNupa2Ddx-OaoLmk1lKpVOT5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50685590359-armg44m3mte20lf2rk51jhqkivdfj303.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
