@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_texture_left"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/gdLeftTexture"
+        app:layout_constraintDimensionRatio="1:3"/>
+
+    <ImageView
+        android:id="@+id/ivEllipse"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_ellipse1"
+        app:layout_constraintBottom_toBottomOf="@+id/gdEllipseBottom"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/gdEllipseRight"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/gdEllipseLeft"
+        app:layout_constraintTop_toTopOf="@+id/gdEllipseTop"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/BigTextViewThin"
+        android:layout_width="232dp"
+        android:layout_height="155dp"
+        android:gravity="center"
+        android:text="@string/the_right_address"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEllipse"
+        app:layout_constraintEnd_toEndOf="@+id/ivEllipse"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/ivEllipse"
+        app:layout_constraintTop_toTopOf="@+id/gdLeftTexture"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        style="@style/MediumTextViewThin"
+        android:layout_width="232dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Get your favorites household goods just from home"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEllipse"
+        app:layout_constraintEnd_toEndOf="@+id/ivEllipse"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/ivEllipse"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_texture_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gdLeftTexture"/>
+    
+    <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+        android:id="@+id/btnGetStarted"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn_background"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/get_started"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdLeftTexture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdEllipseLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdEllipseRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdEllipseTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdEllipseBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
