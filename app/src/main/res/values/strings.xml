@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">E-commerce household goods</string>
+    <string name="the_right_address">The Right Address to shopping any day</string>
+    <string name="get_started">Get started!</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="if_you_haven_t_create">If you haven\'t, create!</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="let_s_sign_in">Let\'s sign in!</string>
+    <string name="don_t_have_an_account_yet_press_here">Don\'t have an account yet? Press here!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="let_s_sign_up">Let\'s sign up!</string>
+    <string name="already_have_an_account_press_here">Already have an account? Press here</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign up</string>
+    <string name="phone">Phone</string>
+    <string name="reset_password">Reset password</string>
+    <string name="we_will_send_you_the_password_reset_link_to_your_email">We will send you the password reset link to your email</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
 </resources>
